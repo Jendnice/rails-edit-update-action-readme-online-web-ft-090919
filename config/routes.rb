@@ -3,4 +3,6 @@ Rails.application.routes.draw do
   
   get 'articles/:id/edit', to: 'articles#edit', as: 'edit_article'
   
+  post 'articles/:id/edit', to: 'articles#update'
+  
 end
